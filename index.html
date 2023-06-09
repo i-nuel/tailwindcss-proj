@@ -28,11 +28,11 @@
                     <i class="bi bi-github mx-3 text-zinc-400"></i>
                 </nav>
         </header>
-        <main class="flex flex-col justify-center items-center content-center mt-28 md:flex-row">
-            <p class="text-white font-extrabold text-6xl font-sans text-center tracking-tight">Rapidly build modern websites <br>without ever leaving your HTML.</p>
+        <main class="flex flex-col justify-center items-center content-center mt-28 md:text-center">
+            <p class=" text-white font-extrabold text-6xl font-sans text-center tracking-tight">Rapidly build modern websites <br>without ever leaving your HTML.</p>
             <p class="mt-7 text-xl text-slate-400 font-semibold text-center">A utility-first CSS framework packed with classes like <span class="text-cyan-400 tracking-wide">flex, pt-4, text-center
             </span>and<br><span class="text-cyan-400 tracking-wide">rotate-90 </span>that can be composed to build any design, directly in your markup.</p>
-            <div class="flex mt-8 md:flex-row md:justify-center md:items-center relative">
+            <div class="flex mt-8">
                 <button class="bg-cyan-500 p-2 text-white rounded-lg w-32 hover:bg-cyan-400 font-semibold">Get started</button>
                 <div class="flex justify-evenly items-center w-72 mx-6 bg-gray-800 rounded-lg hover:bg-gray-700">
                     <div>
@@ -45,8 +45,8 @@
         </main>
 
 
-        <div class="mx-auto px-4 mt-32 grid gap-8 grid-col-12 items-center max-w-7xl md:block md:flex-row">
-            <div class="relative row-start-1 col-start-7 col-span-4">
+        <div class="mx-auto px-4 mt-32 grid gap-8 grid-col-12 items-center max-w-7xl">
+            <div class="md:grid-cols-6 relative row-start-1 col-start-6 col-span-4">
                     <div class="max-w-xl mx-auto px-4 grid grid-cols">
                         <div class="px-4 py-4 flex flex-col bg-slate-900/70 ring ring-white/10 rounded-lg -mt-10 backdrop-blur ">
                             <span class="text-pink-600">&lt;figure</span> <span class="text-gray-400">class</span> <span class="text-cyan-600">="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800"></span>
@@ -65,10 +65,10 @@
                         </div>
                     </div>
             </div>
-            <div class="md:flex-row md:relative ">
-                <figure class="md:flex md-flex-row rounded-xl p-8 md:p-0 bg-slate-800 absolute -mt-24 md:relative ">
-                    <img class=" md:w-20 md:h-20 md:rounded-full mx-auto" src="./Img/sarah-dayan.de9b3815.jpg" alt="" width="380" height="400">
-                    <div class="pt-6 md:p-8 text-center md:text-left space-y-4 w-[32rem] h-10 ">
+            <div class="">
+                <figure class="md:flex rounded-xl p-8 md:p-0 bg-slate-800 absolute -mt-24">
+                    <img class="mx-auto h-32 w-36 rounded-lg" src="./Img/sarah-dayan.de9b3815.jpg" alt="">
+                    <div class="pt-3 md:p-8 text-center md:text-left space-y-4 w-[32rem] h-10 ">
                       <blockquote>
                         <p class="text-lg font-medium text-slate-300">
                           “Tailwind CSS is the only framework that I've seen scale
@@ -85,15 +85,15 @@
                         </div>
                       </figcaption>
                     </div>
-                </figure>
+                  </figure>
             </div>
         </div>
     </Section>
     <section class="bg-slate-900/100 w-screen h-[290vh]">
-        <div class="flex justify-center md:flex-row md:text-center items-center content-center">
+        <div class="flex justify-center items-center content-center">
             <div class="mt-48 items-center flex flex-col justify-center mx-auto">
-                <h1 class="text-white text-5xl font-bold leading-tight md:text-center md:justify-center md:items-center">"Best practices" don't actually work.</h1>
-                <p class="w-[55vw] text-center my-6 tracking-wide text-slate-400 font-medium text-lg md:text-center">
+                <h1 class="text-white text-5xl font-bold leading-tight">"Best practices" don't actually work.</h1>
+                <p class="w-[55vw] text-center my-6 tracking-wide text-slate-400 font-medium text-lg">
                     I’ve written <span class="text-sky-400">a few thousand words</span> on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you’re never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you’ll wonder how you ever worked with CSS any other way.
                 </p>
                 <div class="flex mb-20 overflow-hidden">
@@ -107,9 +107,9 @@
                 </div>
             </div>
         </div>
-        <div class=" mx-auto px-4 max-w-7xl w-screen overflow-x-hidden">
-            <div class="mt-14 grid grid-cols-3 gap-8 md:block md:flex-row md:space-y-4 md:justify-center md:mt-3 md:px-8">
-                <ul class="space-y-8 md:block">
+        <div class=" mx-auto px-4 max-w-7xl w-screen overflow-x-hiddenmd:flex md:flex-row">
+            <div class="mt-14 grid grid-cols-3 gap-8">
+                <ul class="space-y-8 md:grid">
                     <li class="text-sm leading-6">
                         <figure class="relative flex flex-col rounded-lg p-6 bg-slate-800">
                             <figcaption class="flex items-center space-x-4">
@@ -234,8 +234,8 @@
         </div>
 
 
-        <div class=" mt-44 md:block justify-self-center justify-center items-center">
-            <div class="max-w-7xl mx-auto px-4 md:block md:justify-center md:items-center">
+        <div class=" mt-44">
+            <div class="max-w-7xl mx-auto px-4">
                 <div class="w-16 h-16 rounded-full">
                     <img src="./Img/icon01.png" alt="" class="rounded-full ring ring-indigo-500">
                 </div>
@@ -269,8 +269,8 @@
         </div>
     </section>
     <section class=" bg-cover gradient-to-r from-cyan-500 to-blue-500 h-[80vh]" style="background-image: url(./Img/23369553_33.jpg);">
-        <div class="max-w-7xl mx-auto px-4 grid grid-cols-12 gap-8 md:flex-row md:block md:relative">
-            <div class="col-span-6 row-end-4 flex flex-col bg-slate-900/70 ring ring-white/10 rounded-lg mt-10 md:mt-0 backdrop-blur ">
+        <div class="md:grid md:grid-rows-6 max-w-7xl mx-auto px-4 grid grid-cols-12 gap-8">
+            <div class="col-span-6 row-end-4 flex flex-col bg-slate-900/70 ring ring-white/10 rounded-lg mt-10 backdrop-blur ">
                 <ul class="relative font-mono text-xs py-6 space-y-4 px-5">
                     <li>
                         <div class="h-6 origin-left bg-indigo-500 text-white flex justify-center items-center" style="width: 24rem; border-radius: 4px;">
